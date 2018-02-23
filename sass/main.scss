@@ -1,0 +1,12 @@
+// стили общего блока с фоном
+.main {
+  display: flex;
+  background-color: #101114;
+}
+
+@media (max-width: $lil-tablet) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+}

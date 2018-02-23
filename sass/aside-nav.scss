@@ -1,0 +1,11 @@
+// стили блока с меню
+.aside-nav {
+  width: 320px;
+  margin: 0;
+}
+// стили при изменении размера экрана
+@media (max-width: $lil-tablet) {
+  .aside-nav {
+    width: 100%;
+  }
+}

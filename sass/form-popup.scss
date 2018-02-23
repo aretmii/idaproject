@@ -1,0 +1,22 @@
+// стили открывающегося пункта меню
+.form-popup {
+  max-width: 640px;
+  background-color: #f2f2f2;
+}
+// стили верхней части с формой оплаты
+.form-popup__top {
+  background-color: #f7f8f8;
+}
+// стили нижней части с текстом
+.form-popup__bottom {
+  background-color: #373c43;
+  padding: 5px 30px 33px 30px;
+  color: #7f8591;
+}
+
+.form-popup__bottom article>p {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 18px;
+}

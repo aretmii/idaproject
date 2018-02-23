@@ -1,0 +1,79 @@
+// стили формы заполнения данных по карте
+.form-card {
+  padding: 50px 5px 30px 5px;
+  margin: 0 auto;
+  max-width: 584px;
+}
+
+.form-card__info,
+.form-card__card {
+  border-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form-card__info-legend {
+  color: #bec6cf;
+  font-size: 16px;
+  line-height: 21px;
+}
+// стили таблицы с номером счета и суммой платежа
+.form-card__data th{
+  text-align: left;
+  color: #bec6cf;
+  font-weight: normal;
+  width: 130px;
+}
+
+.form-data__insert-account,
+.form-data__insert-sum {
+  color: #000000;
+}
+// стиль кнопки Оплатить
+.form-card__button {
+  background-color: #0056b7;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 31px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+// стиль кнопки Оплатить при нажатии
+.form-card__button:active {
+  background-color: #000000;
+}
+// стили при изменении размера экрана
+@media (max-width: $big-tablet) {
+  .form-card {
+    padding: 50px 0 30px 0;
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .form-card__button {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: $mobile) {
+  .form-card {
+    padding: 50px 0 30px 0;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .form-card__card-legend {
+    max-width: 320px;
+    margin-right: 0;
+  }
+
+  .form-card__button-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}

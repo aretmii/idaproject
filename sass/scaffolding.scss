@@ -1,0 +1,16 @@
+// файл для назначения глоабальных стилей
+body {
+  margin: 0;
+  background-color: #101114;
+  font-family: $font-stack;
+}
+
+input,
+button,
+select {
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}
